@@ -7,19 +7,18 @@ body {
 
 nav a {
     color: #4fc3f7;
-    text-decoration: none;
-	margin-right: 15px; 
+    text-decoration: none; 
 
 }
 
 nav a {
     display: block;
-    border: 2px solid lime;
     margin-bottom: 20px;
 }
 
 nav {
-    margin-bottom: 40px;
+    display: flex;
+	gap: 20px;
 }
 
 nav a:hover {
@@ -40,4 +39,9 @@ Footer {
 	color: Grey;
 	margin-top: 30px;
 
+}
+
+.projects {
+	border: 2px solid #4fc3f7;
+	 margin: 20px;;
 }
