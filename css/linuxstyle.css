@@ -40,3 +40,34 @@ nav a:hover {
         font-size: 25px;
         line-height: 1.5x;
 }
+
+.overview {
+
+	display: flex;
+	gap: 90px;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+}
+
+
+.panel {
+
+	border: 3px solid gray;
+	padding: 30px;
+	transition: transform 0.2s;
+}
+
+.panel:hover {
+        background-color: #560319;
+        border: 3px solid white;
+        transform: translateY(-8px);
+
+
+}
+
+.panel {
+    flex-grow: 1;
+}
+
